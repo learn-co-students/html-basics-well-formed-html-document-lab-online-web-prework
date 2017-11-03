@@ -1,13 +1,17 @@
-# Your First HTML Tag
+# Well-Formed HTML Document Lab
 
 ## Objectives
 
-1. Code an `h1` tag in `index.html`
-2. Make the inner text of the `h1` Hello, World!
+1. Add an appropriate `doctype` tag at the top of an HTML file.
+2. Enclose the HTML contents of a site inside `html` tags.
+3. Structure an HTML document with `head` and `body` tags.
+4. Add `title` tags to give the page a title that will show up in the browser tab.
 
 ## Instructions
 
-Open `index.html` in your text editor. Add an `h1` tag with the inner text of `Hello, World!` anywhere in the file. You can run the tests with this lab via `learn`. Read the error messages in your tests, they contain hints!
+Open `index.html` in your text editor. Add a `doctype` tag at the top of the file indicating that the rest of the file will be HTML code. Then create opening and closing `html` tags to enclose the remainder of your page's content. Add opening and closing `head` and `body` tags within the outer `html` tags to break your HTML document up into two sections. Remember, the `head` section generally contains data intended for the web browser, and the `body` section contains the content our users will see and interact with on the page.
+
+You can run the tests with this lab via `learn`. Make sure you save the file before running the test suite. Failing tests will provide helpful error messages that you can use to debug your code — read them closely for hints!
 
 ## Viewing your work in the browser
 
@@ -19,4 +23,4 @@ Once you have the HTML document open in your browser, you can make changes to it
 
 ## Resources
 
-* [h1-h6 Tags](https://www.w3schools.com/tags/tag_hn.asp)
+* [W3S — HTML `<!DOCTYPE>` Declaration](https://www.w3schools.com/tags/tag_doctype.asp)
