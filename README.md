@@ -1,6 +1,8 @@
 # Well-Formed HTML Document Lab
 
-How do we keep all of our HTML in the right places? By making sure we build the structure correctly from the very first line. Let's construct an entire HTML document to practice putting the necessary elements where they belong.
+How do we keep all of our HTML in the right places? By making sure we build the
+structure correctly from the very first line. Let's construct an entire HTML
+document to practice putting the necessary elements where they belong.
 
 ## Students will be able to ...
 
@@ -12,18 +14,40 @@ How do we keep all of our HTML in the right places? By making sure we build the 
 
 ## Adding the HTML Tags
 
-Open `index.html` in your text editor. Add a `doctype` declaration at the top of the
-file indicating that the rest of the file will be HTML code. Then create
-opening and closing `html` tags to enclose the remainder of your page's
-content. Add opening and closing `head` and `body` tags within the outer
-`html` tags to break your HTML document up into two sections. Remember, the
-`head` section generally contains data intended for the web browser, and the
-`body` section contains the content our users will see and interact with on the
-page.
+There are some parts to every HTML document that are always necessary in order
+for your browser to correctly interpret and display the content. To get started, open
+`index.html` in your text editor.
 
-You can run the tests with this lab via `learn`. Make sure you save the file
-before running the test suite. Failing tests will provide helpful error
-messages that you can use to debug your code — read them closely for hints!
+First, we need to add a `doctype` declaration at the top of the file indicating
+how the HTML should be handled, and in particular what
+[_mode_](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
+of HTML the page should be in. In modern web development, using HTML5, we can
+simply put `html` within the `doctype` declaration, which will work for all
+current browsers. This should always be placed at the top of your HTML
+documents:
+
+```html
+<!DOCTYPE html>
+```
+
+Second, we need to define where the HTML content is on the page by creating
+opening and closing `html` tags to enclose all your page's HTML content.
+
+Within the `html` tags, there are two main sections that are required, `head`
+and `body`. Add opening and closing `head` and `body` tags within the outer
+`html` tags to break your HTML document up into two sections.
+
+The `head` section generally contains data intended for the web browser,
+including information about the page that is useful to search engines, and also
+contains the `title`, which will show up at the top of a browser window,
+typically in the _tab_. The `body` section contains all the content our users
+will see and interact with on the page.
+
+In order to pass this lab, your task is to create a well formed document using
+the tags we've discussed. You can run the tests for this lab via `learn`. Make
+sure you save the file before running the test suite. Failing tests will provide
+helpful error messages that you can use to debug your code — read them closely
+for hints!
 
 ## Viewing Your Work in the Browser
 
@@ -47,4 +71,6 @@ changes instantly.
 
 ## Conclusion
 
-We've figured out how to construct a solid structure for the HTML document. Now, as you pick up new HTML tags, you'll be able to add more elements to build out the rest of the page.
+We've figured out how to construct a solid structure for the HTML document. Now,
+as you pick up new HTML tags, you'll be able to add more elements to build out
+the rest of the page.
