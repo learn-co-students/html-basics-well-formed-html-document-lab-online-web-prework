@@ -1,10 +1,12 @@
 # Well-Formed HTML Document Lab
 
+## Problem Statement
+
 How do we keep all of our HTML in the right places? By making sure we build the
 structure correctly from the very first line. Let's construct an entire HTML
 document to practice putting the necessary elements where they belong.
 
-## Students will be able to ...
+## Objectives
 
 1. Add an appropriate `doctype` tag at the top of an HTML file
 2. Enclose the HTML contents of a site inside `html` tags
