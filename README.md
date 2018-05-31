@@ -14,9 +14,9 @@ document to practice putting the necessary elements where they belong.
 
 ## Adding the HTML Tags
 
-There are some parts to every HTML document that are always necessary in order
-for your browser to correctly interpret and display the content. To get started, open
-`index.html` in your text editor.
+Every HTML document requires a few specific tags that enable your browser to
+correctly interpret and display the content. To get started, open `index.html`
+in your text editor.
 
 First, we need to add a `doctype` declaration at the top of the file indicating
 how the HTML should be handled, and in particular what
