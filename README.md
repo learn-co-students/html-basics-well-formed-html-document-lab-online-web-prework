@@ -43,7 +43,8 @@ The `head` section generally contains data intended for the web browser,
 including information about the page that is useful to search engines, and also
 contains the `title`, which will show up at the top of a browser window,
 typically in the _tab_. The `body` section contains all the content our users
-will see and interact with on the page.
+will see and interact with on the page. Make sure to include at least some text 
+in the title tag.
 
 In order to pass this lab, your task is to create a well formed document using
 the tags we've discussed. You can run the tests for this lab via `learn`. Make
