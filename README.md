@@ -77,5 +77,4 @@ We've figured out how to construct a solid structure for the HTML document. Now,
 as you pick up new HTML tags, you'll be able to add more elements to build out
 the rest of the page.
 
-[help]: http://help.learn.co/the-learn-ide/common-ide-questions/viewing-
-html-pages-in-the-learn-ide
+[help]: http://help.learn.co/the-learn-ide/common-ide-questions/viewing-html-pages-in-the-learn-ide
