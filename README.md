@@ -14,58 +14,51 @@ document to practice putting the necessary elements where they belong.
 4. Add `title` tags to give the page a title that will show up in the browser
    tab
 
-## Adding the HTML Tags
+## Add the HTML Tags
 
 Every HTML document requires a few specific tags that enable your browser to
-correctly interpret and display the content. To get started, open `index.html`
-in your text editor.
+correctly interpret and display the content. A good way to think about this is that we need to build a solid structure for the content we want to put in our page, and each tag has a function in building that structure. If we forget a tag, our structure will weaken and the browser might not be able to display our page at all. So it's important we put every piece in its place at the beginning.
 
-First, we need to add a `doctype` declaration at the top of the file indicating
-how the HTML should be handled, and in particular what
-[_mode_](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
-of HTML the page should be in. In modern web development, using HTML5, we can
-simply put `html` within the `doctype` declaration, which will work for all
-current browsers. This should always be placed at the top of your HTML
-documents:
+To get started, open `index.html` in your text editor.
+
+The first step is always to add a `doctype` declaration at the top of the file indicating to the browser how the HTML should be handled, and, in particular, what [_mode_](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode) of HTML the page should be in. In modern web development, we can simply put `html` within the `doctype` declaration:
 
 ```html
 <!DOCTYPE html>
 ```
 
-Second, we need to define where the HTML content is on the page by creating
-opening and closing `html` tags to enclose all your page's HTML content.
+**Task #1** Put the `doctype` declaration at the top of your `index.html` file.
 
-Within the `html` tags, there are two main sections that are required, `head`
-and `body`. Add opening and closing `head` and `body` tags within the outer
-`html` tags to break your HTML document up into two sections.
+Secondly, we need to define where the HTML content is on the page by creating
+opening and closing `html` tags to enclose _all_ of your page's HTML content.
+
+**Task #2** Create opening and closing `html` tags underneath your `doctype` declaration.
+
+Within the `html` tags, there are two main sections that are required: `head`
+and `body`.
 
 The `head` section generally contains data intended for the web browser,
-including information about the page that is useful to search engines, and also
+including information about the page that is useful to search engines. It also
 contains the `title`, which will show up at the top of a browser window,
-typically in the _tab_. The `body` section contains all the content our users
-will see and interact with on the page. Make sure to include at least some text 
-in the title tag.
+typically in the _tab_. As the web developer, you get to decide what the title will be—whatever text you type in between the `title` tags will show up as the page title.
 
-In order to pass this lab, your task is to create a well formed document using
-the tags we've discussed. You can run the tests for this lab via `learn`. Make
-sure you save the file before running the this command. Failing tests will provide
-helpful error messages that you can use to debug your code — read them closely
-for hints!
+The `body` section contains all the content our users will see and interact with on the page.
 
-## Viewing Your Work in the Browser
+**Task #3** Add opening and closing `head` and `body` tags inside of the outer
+`html` tags.
+
+You can run the tests for this lab via `learn`. Make sure you save the file before running the this command. Failing tests will provide helpful error messages that you can use to debug your code — read them closely for hints!
+
+## View Your Work in the Browser
 
 While working through these assignments, your general workflow should center on
 writing code in the text editor and periodically running `learn` in the
 terminal to check your work.
 
-Another great way to track your progress is to open up the HTML document in your
-browser and watch how each change you make in the text editor affects the visual
-layout in the browser. For reference, here's a guide to
+Another great way to track your progress is to open up the HTML document in your browser and watch how each change you make in the text editor affects the visual layout in the browser. For reference, here's a guide to
 [viewing HTML pages in the Learn IDE][help].
 
-Once you have the HTML document open in your browser, you can make changes to it
-in the text editor, save the file, refresh the page in the browser, and see the
-changes instantly.
+Once you have the HTML document open in your browser, you can make changes to it in the text editor, save the file, refresh the page in the browser, and see the changes instantly.
 
 ## Resources
 
@@ -73,8 +66,6 @@ changes instantly.
 
 ## Conclusion
 
-We've figured out how to construct a solid structure for the HTML document. Now,
-as you pick up new HTML tags, you'll be able to add more elements to build out
-the rest of the page.
+We've figured out how to construct a solid structure for the HTML document. Now, as you pick up new HTML tags, you'll be able to add more elements to build out the rest of the page.
 
 [help]: http://help.learn.co/the-learn-ide/common-ide-questions/viewing-html-pages-in-the-learn-ide
