@@ -5,7 +5,7 @@
 - Add an appropriate `doctype` tag to the top of an HTML file
 - Add opening and closing `html` tags
 - Add opening and closing `head` and `body` tags
-- Add a `title` tags
+- Add `title` tags
 
 ## Introduction
 
