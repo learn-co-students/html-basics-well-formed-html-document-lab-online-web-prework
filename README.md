@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Add an appropriate `doctype` tag to the top of an HTML file
+- Add an appropriate `DOCTYPE` tag to the top of an HTML file
 - Add opening and closing `html` tags
 - Add opening and closing `head` and `body` tags
 - Add `title` tags
@@ -22,14 +22,14 @@ page at all. So it's important we put every piece in its place at the beginning.
 
 To get started, open `index.html` in your text editor.
 
-## Add an Appropriate `doctype` Tag to the Top of an HTML File
+## Add an Appropriate `DOCTYPE` Tag to the Top of an HTML File
 
-The first step is always to add a `doctype` declaration at the top of the file
+The first step is always to add a `DOCTYPE` declaration at the top of the file
 indicating to the browser how the HTML should be handled, and, in particular,
 what
 [_mode_](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
 of HTML the page should be in. In modern web development, we can simply put
-`html` within the `doctype` declaration:
+`html` within the `DOCTYPE` declaration:
 
 ```html
 <!DOCTYPE html>
