@@ -50,9 +50,9 @@ on the page.
 
 ## Add a `title` Tag
 
-The `body` section also contains the `title`, which will show up at the top of a
+The `head` section contains the `title`, which will show up at the top of a
 browser window, typically in the _tab_. As the web developer, you get to decide
-what the title will be—whatever text you type in between the `title` tags will
+what the title will be — whatever text you type in between the `title` tags will
 show up as the page title.
 
 You can run the tests for this lab via `learn`. Make sure you save the file
