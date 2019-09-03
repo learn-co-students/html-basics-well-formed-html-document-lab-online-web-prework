@@ -1,4 +1,4 @@
-# Well-Formed HTML Document Lab
+ # Well-Formed HTML Document Lab
 
 ## Learning Goals
 
