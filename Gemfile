@@ -1,7 +1,9 @@
-source "https://rubygems.org"
-
-
-gem 'rspec', '3.6'
-gem 'pry'
-gem 'nokogiri'
-gem 'w3c_validators'
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8>
+    <title>Hello World!</title>
+  </head>
+  <body>
+  </body>
+</html>
