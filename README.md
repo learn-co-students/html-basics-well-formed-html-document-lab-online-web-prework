@@ -61,7 +61,7 @@ that you can use to debug your code — read them closely for hints!
 
 ### View Your Work in the Browser
 
-While working through these assignments, your general workflow should center on
+While working through these assignments, your general workflow should be centered on
 writing code in the text editor and periodically running `learn` in the terminal
 to check your work.
 
